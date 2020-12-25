@@ -430,6 +430,7 @@ animation-delay: .5s;
 }
 #about .col-right p{
     margin-bottom: 11px;
+    justify-content: center;
 }
 #about .cta{
     display: inline-block;
@@ -670,6 +671,15 @@ animation-delay: .5s;
     #services .service-top{
        max-width: 500px;
         margin: 0 auto;
+    }
+    #services .service-top{
+        max-width: 900px;
+    }
+    #services .service-top p{
+        font-size: 2rem;
+        margin: 0 auto;
+        line-height: 1.3;
+
     }
 
 }
